@@ -70,3 +70,46 @@ This is useful when you're fetching public resources that don't require specific
 use-credentials: This value indicates that the browser should include credentials when making the cross-origin request. 
 It's used when the requesting page needs to send user-specific data (like cookies) along with the request. 
 This requires the server to be configured to accept cross-origin requests with credentials.
+
+......................................................................................................................
+
+
+6.What is diference between React and ReactDOM?
+Ans:-
+React is responsible for creating and managing the user interface components, their structure, and behavior, 
+while ReactDOM is responsible for the actual rendering of those components into the browser's DOM. 
+They work together to build dynamic and interactive web applications.
+
+......................................................................................................................
+
+7. What is difference between react.development.js and react.production.js files via CDN?
+Ans:-
+react.development.js:
+Purpose:-- Designed for development stages of a project.
+Error Messages:-- Contains detailed error messages and warnings.
+Debugging:-- Helps developers identify issues during development.
+File Size:-- Larger file size due to additional error-checking code.
+Advantage:-- Assists in catching and fixing bugs during development.
+
+react.production.js:
+Purpose:-- Optimized for production environments.
+Error Messages:-- Excludes error messages and warnings to reduce file size.
+Performance:-- Smaller file size results in faster downloads and better performance.
+Debugging:-- Lacks detailed error messages, which makes it harder to debug in production.
+Advantage:-- Enhances website or app performance for end-users in production.
+
+......................................................................................................................
+
+8.What is async and defer?
+Ans:-
+Async:
+Loading:-- Fetches and executes the script while the page continues loading.
+Execution:-- Runs the script as soon as it's ready, possibly before the page finishes loading.
+Order:-- No guarantee on the order scripts execute in if multiple are present.
+Use Case:-- Good for independent scripts that don't depend on the page's content.
+
+Defer:
+Loading:-- Fetches the script while the page continues loading.
+Execution:-- Runs the script after the HTML parsing is done, in the order they appear.
+Order:-- Scripts execute in the sequence they're placed in the page.
+Use Case:-- Ideal for scripts that require the DOM to be fully parsed before execution.
