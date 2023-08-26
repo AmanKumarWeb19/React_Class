@@ -1,0 +1,23 @@
+Theory -
+
+1. What is Emmet?
+Ans:-   
+Emmet, formerly known as Zen Coding, is a toolkit designed to improve the HTML and CSS workflow 
+for web developers and designers. 
+It's a set of tools and shortcuts that enable developers to write HTML and CSS code more efficiently and quickly. 
+Emmet is especially popular among front-end developers who work on building and styling web pages.
+
+Emmet provides a shorthand syntax for writing HTML and CSS code, 
+allowing you to create complex structures with just a few keystrokes. 
+It's often used in code editors or integrated development environments (IDEs) that support the Emmet plugin.
+
+2. Difference between a Library and Framework?
+Ans:-   
+Library:
+Think of a library like a toolbox. It has tools (functions) that you can use whenever you need them. 
+You decide when and how to use each tool in your work.
+
+Framework:
+Imagine a framework as a recipe for making a specific dish. 
+It not only gives you the ingredients (functions) but also tells you how to put them 
+together step by step. You follow the recipe to create the final dish (your application).
