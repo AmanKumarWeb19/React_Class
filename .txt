@@ -11,6 +11,8 @@ Emmet provides a shorthand syntax for writing HTML and CSS code,
 allowing you to create complex structures with just a few keystrokes. 
 It's often used in code editors or integrated development environments (IDEs) that support the Emmet plugin.
 
+......................................................................................................................
+
 2. Difference between a Library and Framework?
 Ans:-   
 Library:
@@ -21,3 +23,50 @@ Framework:
 Imagine a framework as a recipe for making a specific dish. 
 It not only gives you the ingredients (functions) but also tells you how to put them 
 together step by step. You follow the recipe to create the final dish (your application).
+
+.......................................................................................................................
+
+3. What is CDN? Why do we use it?
+Ans:-
+A CDN (Content Delivery Network) is like a network of super-fast storage for website stuff (like images and videos). 
+We use it to make websites load faster and handle lots of visitors without crashing. 
+It works by storing copies of the website's files in different places around the world, 
+so when you visit a site, you get stuff from a nearby storage, making things quicker.
+
+Example:-
+Imagine you have a big box of toys at your home.
+Your friends from different neighborhoods also want to play with your toys. 
+Instead of making your friends travel all the way to your home, you decide to keep smaller boxes of toys in their 
+neighborhoods too. This way, they can easily get toys to play with without traveling far.
+
+Similarly, a CDN is like having these smaller boxes of toys in different neighborhoods around the world, 
+but instead of toys, it's copies of website stuff like pictures and videos. When people want to see a website,
+they get the stuff from the closest "box," which makes the website load faster for them. 
+It's a way to share website stuff quickly and easily, no matter where you are.
+
+......................................................................................................................
+
+4. Why is React known as React?
+Ans:-
+ React "reacts" to changes in data by efficiently updating the user interface without unnecessary reloading or rendering. 
+ This approach to building interfaces makes it faster and more responsive, which is why the library is called React.
+
+ .....................................................................................................................
+
+5. What is crossorigin in script tag?
+Ans:-
+The crossorigin attribute in a <script> tag is used to control how the browser should handle cross-origin requests 
+when loading scripts from different domains. 
+Cross-origin requests occur when a web page requests resources 
+(like scripts, fonts, or images) from a domain different from the one the page itself is hosted on.
+
+The crossorigin attribute has a few different values:
+
+anonymous: This is the default value. 
+It means that the browser will make the request for the script without including any credentials 
+(like cookies or HTTP authentication) from the requesting page's origin. 
+This is useful when you're fetching public resources that don't require specific user credentials.
+
+use-credentials: This value indicates that the browser should include credentials when making the cross-origin request. 
+It's used when the requesting page needs to send user-specific data (like cookies) along with the request. 
+This requires the server to be configured to accept cross-origin requests with credentials.
