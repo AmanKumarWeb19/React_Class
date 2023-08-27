@@ -190,3 +190,16 @@ Ans:-
 React Event handling is similar to HTML only some changes in Syntax.
 Such as:- React use CamelCase for event name while HTML use Lowercase.
 instead of passing string as an event handler. we pass function in React.
+
+....................................................................................................................
+
+18. What are some of Redux DevTool's most essential features?
+
+Ans:- Redux DevTools is a browser extension and it is used in debugging in the Redux applications. 
+the main purpose of the redux dev tool are:-
+1. It lets you go back in time by “canceling” actions.
+2. You can inspect the current state of your Redux store, including nested objects and arrays
+3. If you change the reducer code, each “staged” action will be re-evaluated.
+4. You can update the state from the DevTools interface. 
+
+
