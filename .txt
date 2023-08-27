@@ -211,3 +211,10 @@ The data flow in a React application follows a unidirectional manner.
 Model: It is responsible for maintaining the behavior and data of an application.
 View: It is used to display the model in the user interface.
 Controller: It acts as an interface between the Model and the View components.
+
+.....................................................................................................................
+
+20. what are diffrences between "Display:none" And "Visibility:hidden", when used as attributes to the HTML element.
+Ans:-
+"display:none" hides the elements but does not take extra space.
+"visibility:hidden" hides the elements but takes the space.
