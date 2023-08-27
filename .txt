@@ -185,3 +185,8 @@ d. Descendant Selector.
 
 .....................................................................................................................
 
+17. what is the differences between HTML and React event Handling?
+Ans:-
+React Event handling is similar to HTML only some changes in Syntax.
+Such as:- React use CamelCase for event name while HTML use Lowercase.
+instead of passing string as an event handler. we pass function in React.
