@@ -202,4 +202,12 @@ the main purpose of the redux dev tool are:-
 3. If you change the reducer code, each “staged” action will be re-evaluated.
 4. You can update the state from the DevTools interface. 
 
+.....................................................................................................................
 
+19. Explain how data flows between the Model, View, and Controller components in a React application.
+Ans:-
+The data flow in a React application follows a unidirectional manner.
+
+Model: It is responsible for maintaining the behavior and data of an application.
+View: It is used to display the model in the user interface.
+Controller: It acts as an interface between the Model and the View components.
