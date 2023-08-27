@@ -113,3 +113,23 @@ Loading:-- Fetches the script while the page continues loading.
 Execution:-- Runs the script after the HTML parsing is done, in the order they appear.
 Order:-- Scripts execute in the sequence they're placed in the page.
 Use Case:-- Ideal for scripts that require the DOM to be fully parsed before execution.
+
+......................................................................................................................
+
+9. What is React Router Dom?
+Ans:-
+React Router Dom is used to build single-page applications i.e. applications that have many pages or components 
+but the page is never refreshed instead the content is dynamically fetched based on the URL. 
+This process is called Routing and it is made possible with the help of React Router Dom.
+
+.....................................................................................................................
+
+10. What is useEffect in React?
+Ans:-
+The useEffect Hook allows you to perform side effects in your components. 
+Some examples of side effects are: fetching data, directly updating the DOM, and timers. 
+useEffect accepts two arguments. The second argument is optional.
+
+......................................................................................................................
+
+11. 
