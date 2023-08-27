@@ -149,4 +149,39 @@ hence the web application makes fast and more efficient.
 
 ......................................................................................................................
 
-13. 
+13. what are the advantages of using flux architecture in react for state management?
+Ans:-
+The advantages of using flux architecture in react for state management are:-
+1. It provides a structured and efficient approach to managing the state in React application.
+2. flux has better code quality
+3. It is very maintainable and scalable.
+4. It is very easy to debug.
+
+.....................................................................................................................
+
+14. what is JWT and how it works?
+Ans:-
+The full form of JWT is JSON Web Token and It is an open industry to share information between client and server.
+like if you send JWT (username, password) to the server, and when the server receives this information it will generate a 
+signature from your given JWT and verifies it and If JWT is valid it sends back the response.
+
+......................................................................................................................
+
+15. What is CORS and how does it affect API requests?
+Ans:-
+The CORS mechanism supports secure cross-origin requests and data transfers between browsers and servers. 
+Modern browsers use CORS in APIs such as XMLHttpRequest or Fetch to decrease the risks of cross-origin HTTP requests.
+
+........................................................................................................................
+
+16. What is CSS Combinator?
+Ans:-
+A Combinator is something that explains the relationship between the selector.
+There Are four types of combinators:-
+a. Adjacent Sibling selector
+b. General Sibling Selector
+c. Child Selector
+d. Descendant Selector.
+
+.....................................................................................................................
+
