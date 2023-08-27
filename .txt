@@ -132,4 +132,21 @@ useEffect accepts two arguments. The second argument is optional.
 
 ......................................................................................................................
 
-11. 
+11. Can you explain the concept of event pooling in React synthetic events?
+
+Ans:-
+Event pooling in React means that when an event is fired,
+React reuses the event object instead of creating a new event object for each event. 
+It helps to reduce memory usage.
+
+.....................................................................................................................
+
+12. how does virtual DOM help in improving application performance?
+Ans:-
+the virtual DOM helps improve application performance by minimizing direct DOM manipulations, 
+and avoid unnecessary updates and re-render the web application user interface, 
+hence the web application makes fast and more efficient.
+
+......................................................................................................................
+
+13. 
