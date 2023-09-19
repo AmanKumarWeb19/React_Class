@@ -20,9 +20,15 @@ const container = [head];
 // 1. Functional Component:-
 
 const HeaderComponent = () => {
-  return <h1>Namaste React Functional Component</h1>;
+  return (
+    <div>
+      {head}
+      <h2>Namaste React Functional Component</h2>
+      <h2>This is h2 Tag</h2>
+    </div>
+  );
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(container);
+root.render(<HeaderComponent />);
