@@ -14,8 +14,14 @@ const container = [head];
 
 // Components :-
 
+// 1. Functional Component
+// 2. Class Based Component
 
+// 1. Functional Component:-
 
+const HeaderComponent = () => {
+  return <h1>Namaste React Functional Component</h1>;
+};
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
