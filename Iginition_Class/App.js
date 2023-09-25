@@ -53,10 +53,24 @@ const HeaderComponent = () => {
   );
 };
 
+const Body = () => {
+  return <h4>Body</h4>;
+};
+
+const Footer = () => {
+  return <h4>Footer</h4>;
+};
+
 const AppLayout = () => {
-  return {};
+  return (
+    <>
+      <HeaderComponent />
+      <Body />
+      <Footer />
+    </>
+  );
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(<HeaderComponent />);
+root.render(<AppLayout />);
