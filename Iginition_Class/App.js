@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-
 // const AppLayout = () => {
 //   return {
 //     /**
@@ -24,30 +23,36 @@ import ReactDOM from "react-dom/client";
 //   };
 // };
 
-
 // JSX => React.createElement => Object => HTML(DOM)
 
 // React Element :-
 
-const head = (
+const Title = () => (
   <h1 id="h1" key={"h2"}>
     Food Villa
   </h1>
 );
-const container = [head];
 
 const HeaderComponent = () => {
   return (
-    <div>
-      {head}
-      <h2>Namaste React Functional Component</h2>
-      <h2>This is h2 Tag</h2>
+    <div className="header">
+      <Title />
+      <div className="nav-items">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact us</li>
+          <li>Cart</li>
+        </ul>
+      </div>
     </div>
   );
+};
+
+const AppLayout = () => {
+  return {};
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<HeaderComponent />);
-
-
