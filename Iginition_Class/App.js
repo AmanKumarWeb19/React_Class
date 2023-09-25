@@ -28,9 +28,13 @@ import ReactDOM from "react-dom/client";
 // React Element :-
 
 const Title = () => (
-  <h1 id="h1" key={"h2"}>
-    Food Villa
-  </h1>
+  <a href="/">
+    <img
+      className="logo"
+      src="https://tmlogosave.s3.ap-south-1.amazonaws.com/5438235.jpeg"
+      alt="logo"
+    />
+  </a>
 );
 
 const HeaderComponent = () => {
